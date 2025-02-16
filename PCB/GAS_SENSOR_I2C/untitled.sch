@@ -239,9 +239,9 @@ DIN A4, landscape with location and doc. field</description>
 <package name="TQFP32-08">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
 <circle x="0" y="0" radius="8.89" width="0.127" layer="21"/>
-<pad name="P$1" x="-8.89" y="0" drill="2"/>
-<pad name="P$2" x="-6.35" y="-6.35" drill="2"/>
-<pad name="P$3" x="8.89" y="0" drill="2"/>
+<pad name="P$1" x="-7.62" y="0" drill="2"/>
+<pad name="P$2" x="-5.3975" y="-5.3975" drill="2"/>
+<pad name="P$3" x="7.62" y="0" drill="2"/>
 <wire x1="-8.89" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="-8.89" width="0.127" layer="21"/>
@@ -250,9 +250,9 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="0" y1="0" x2="6.35" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="-6.35" y2="6.35" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="-6.35" y2="-6.35" width="0.127" layer="21"/>
-<pad name="P$4" x="6.35" y="-6.35" drill="2"/>
-<pad name="P$5" x="6.35" y="6.35" drill="2"/>
-<pad name="P$6" x="-6.35" y="6.35" drill="2"/>
+<pad name="P$4" x="5.3975" y="-5.715" drill="2"/>
+<pad name="P$5" x="5.3975" y="5.3975" drill="2"/>
+<pad name="P$6" x="-5.3975" y="5.3975" drill="2"/>
 <circle x="0" y="0" radius="6.35" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="5.08" width="0.127" layer="21"/>
 <circle x="-3.81" y="3.81" radius="0.635" width="1.016" layer="21"/>
@@ -261,6 +261,7 @@ DIN A4, landscape with location and doc. field</description>
 <circle x="3.81" y="-3.81" radius="0.635" width="1.016" layer="21"/>
 <circle x="5.08" y="0" radius="0.635" width="1.016" layer="21"/>
 <circle x="3.81" y="3.81" radius="0.635" width="1.016" layer="21"/>
+<pad name="P$7" x="0" y="7.62" drill="2"/>
 </package>
 </packages>
 <symbols>
@@ -274,6 +275,7 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="2" x="-12.7" y="0" length="middle"/>
 <pin name="1" x="-10.16" y="5.08" length="middle"/>
 <circle x="0" y="0" radius="7.62" width="0.254" layer="94"/>
+<pin name="7" x="0" y="-12.7" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -291,6 +293,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="U1" pin="4" pad="P$4"/>
 <connect gate="U1" pin="5" pad="P$3"/>
 <connect gate="U1" pin="6" pad="P$5"/>
+<connect gate="U1" pin="7" pad="P$7"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMzM3NTk" projecturn="a.YnVzaW5lc3M6Z21haWwyMzM3NTkjRDIwMTkwNzEwMjAyOTg4NzI2" f3durn="urn:adsk.wipprod:dm.lineage:NbWn_2hCTDWGvtRHkZrWSA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3b7adbf2-7287-44ff-8b66-1ee87b93c352" lastsyncedrevisionid="3b7adbf2-7287-44ff-8b66-1ee87b93c352" lastboardhashguid="e7a2957d-b73a-dee7-b2ff-0d0d432286fc" lastpushedtime="2025-02-16T10:41:01Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMzM3NTk" projecturn="a.YnVzaW5lc3M6Z21haWwyMzM3NTkjRDIwMTkwNzEwMjAyOTg4NzI2" f3durn="urn:adsk.wipprod:dm.lineage:NbWn_2hCTDWGvtRHkZrWSA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="35068e92-464c-4bf5-853e-63e0cc6d30e6" lastsyncedrevisionid="35068e92-464c-4bf5-853e-63e0cc6d30e6" lastboardhashguid="ccab4818-71fd-16a9-6ef4-83b9a6629a57" lastpushedtime="2025-02-16T14:44:37Z" linktopcb3d="true"/>
 <plain>
 <hole x="43.053" y="0" drill="2.2"/>
 <hole x="43.053" y="18.796" drill="2.2"/>
@@ -965,8 +965,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="MQ-Socket" package="TQFP32-08" value="" x="33.528" y="9.525" smashed="yes"/>
-<element name="R1" library="CRCW060310K0FKEI" package="RESC1608X50N" value="10k" x="17.018" y="2.54" smashed="yes" rot="R270">
+<element name="U1" library="MQ-Socket" package="TQFP32-08" override_package3d_urn="urn:adsk.eagle:package:46981914/2" override_package_urn="urn:adsk.eagle:footprint:46981915/1" value="" x="33.528" y="9.525" smashed="yes"/>
+<element name="R1" library="CRCW060310K0FKEI" package="RESC1608X50N" override_package3d_urn="urn:adsk.eagle:package:46981999/2" override_package_urn="urn:adsk.eagle:footprint:46982000/1" value="10k" x="17.018" y="2.54" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard Thick Film Chip Resistors value 10K0 ohm." x="17.018" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.5mm" x="17.018" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="17.018" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
@@ -976,7 +976,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.018" y="4.572" size="0.6" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="17.018" y="2.54" size="0.6" layer="27" rot="R270" align="center"/>
 </element>
-<element name="C3" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="5.588" y="2.413" smashed="yes" rot="MR270">
+<element name="C3" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46982049/2" override_package_urn="urn:adsk.eagle:footprint:46982050/1" value="100nf" x="5.588" y="2.413" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="5.588" y="2.413" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="5.588" y="2.413" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="5.588" y="2.413" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1016,7 +1016,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.13" y="16.383" size="0.6" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="22.479" y="16.383" size="0.6" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R2" library="CRCW060310K0FKEI" package="RESC1608X50N" value="10k" x="19.685" y="13.208" smashed="yes" rot="R270">
+<element name="R2" library="CRCW060310K0FKEI" package="RESC1608X50N" override_package3d_urn="urn:adsk.eagle:package:46982029/2" override_package_urn="urn:adsk.eagle:footprint:46982030/1" value="10k" x="19.685" y="13.208" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard Thick Film Chip Resistors value 10K0 ohm." x="19.685" y="13.208" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.5mm" x="19.685" y="13.208" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="19.685" y="13.208" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1026,7 +1026,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.669" y="13.335" size="0.6" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="19.685" y="13.208" size="0.6" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R3" library="CRCW060310K0FKEI" package="RESC1608X50N" value="10k" x="22.098" y="13.208" smashed="yes" rot="R270">
+<element name="R3" library="CRCW060310K0FKEI" package="RESC1608X50N" override_package3d_urn="urn:adsk.eagle:package:46982027/2" override_package_urn="urn:adsk.eagle:footprint:46982028/1" value="10k" x="22.098" y="13.208" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard Thick Film Chip Resistors value 10K0 ohm." x="22.098" y="13.208" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.5mm" x="22.098" y="13.208" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="22.098" y="13.208" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1036,7 +1036,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.241" y="13.208" size="0.6" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="22.098" y="13.208" size="0.6" layer="27" rot="R270" align="center"/>
 </element>
-<element name="C4" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="20.193" y="11.303" smashed="yes">
+<element name="C4" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46982017/2" override_package_urn="urn:adsk.eagle:footprint:46982018/1" value="100nf" x="20.193" y="11.303" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="20.193" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="20.193" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="20.193" y="11.303" size="1.778" layer="27" display="off"/>
@@ -1046,7 +1046,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.415" y="11.303" size="0.6" layer="25" align="center"/>
 <attribute name="VALUE" x="20.193" y="11.303" size="0.6" layer="27" align="center"/>
 </element>
-<element name="C5" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="20.193" y="10.16" smashed="yes">
+<element name="C5" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46982025/2" override_package_urn="urn:adsk.eagle:footprint:46982026/1" value="100nf" x="20.193" y="10.16" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="20.193" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="20.193" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="20.193" y="10.16" size="1.778" layer="27" display="off"/>
@@ -1056,7 +1056,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.415" y="10.16" size="0.6" layer="25" align="center"/>
 <attribute name="VALUE" x="20.193" y="10.16" size="0.6" layer="27" align="center"/>
 </element>
-<element name="C6" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="8.001" y="17.018" smashed="yes" rot="R180">
+<element name="C6" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46981965/2" override_package_urn="urn:adsk.eagle:footprint:46981966/1" value="100nf" x="8.001" y="17.018" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="8.001" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="8.001" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="8.001" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1066,7 +1066,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.001" y="18.034" size="0.6" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="8.001" y="17.018" size="0.6" layer="27" rot="R180" align="center"/>
 </element>
-<element name="U2" library="LGT8F328P" package="TQFP32-08" value="LGT8F328P" x="11.43" y="8.763" smashed="yes" rot="R180">
+<element name="U2" library="LGT8F328P" package="TQFP32-08" override_package3d_urn="urn:adsk.eagle:package:46981957/2" override_package_urn="urn:adsk.eagle:footprint:46981958/1" value="LGT8F328P" x="11.43" y="8.763" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Not in stock" x="11.43" y="8.763" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LGT8F328P/Arduino/view-part/?ref=eda" x="11.43" y="8.763" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="                                                                                                    " x="11.43" y="8.763" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1078,7 +1078,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LGT8F328P/Arduino/view-part/?ref=snap" x="11.43" y="8.763" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="14.4526" y="10.033" size="0.6" layer="27" rot="R180"/>
 </element>
-<element name="IC1" library="AZ1117CR2-5.0TRG1" package="AP738133Y13" value="AZ1117CR2-5.0TRG1" x="8.636" y="16.002" smashed="yes" rot="MR270">
+<element name="IC1" library="AZ1117CR2-5.0TRG1" package="AP738133Y13" override_package3d_urn="urn:adsk.eagle:package:46982051/2" override_package_urn="urn:adsk.eagle:footprint:46982052/1" value="AZ1117CR2-5.0TRG1" x="8.636" y="16.002" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-89-3" x="8.636" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="1.6mm" x="8.636" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Diodes Incorporated" x="8.636" y="16.002" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1088,7 +1088,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.826" y="17.794" size="0.6" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="7.38" y="16.002" size="0.6" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="IC2" library="LM393D" package="SOIC127P600X175-8N" value="LM393D" x="20.066" y="5.08" smashed="yes" rot="MR270">
+<element name="IC2" library="LM393D" package="SOIC127P600X175-8N" override_package3d_urn="urn:adsk.eagle:package:46982006/2" override_package_urn="urn:adsk.eagle:footprint:46982007/1" value="LM393D" x="20.066" y="5.08" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="LM393D, Dual Comparator Open Collector 1.3us 12 V, 15 V, 18 V, 24 V, 28 V, 3 V, 5 V, 9 V 8-Pin SO" x="20.066" y="5.08" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="1.75mm" x="20.066" y="5.08" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="20.066" y="5.08" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1098,7 +1098,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.241" y="4.826" size="0.6" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="20.066" y="5.08" size="0.6" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C1" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="17.907" y="9.525" smashed="yes" rot="MR180">
+<element name="C1" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46982041/2" override_package_urn="urn:adsk.eagle:footprint:46982042/1" value="100nf" x="17.907" y="9.525" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="17.907" y="9.525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="17.907" y="9.525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="17.907" y="9.525" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1108,7 +1108,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.764" y="10.668" size="0.6" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="17.907" y="9.525" size="0.6" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="R4" library="RT0603DRE075R1L" package="RESC1608X55N" value="5.1r" x="20.828" y="11.938" smashed="yes" rot="MR180">
+<element name="R4" library="RT0603DRE075R1L" package="RESC1608X55N" override_package3d_urn="urn:adsk.eagle:package:46982031/2" override_package_urn="urn:adsk.eagle:footprint:46982032/1" value="5.1r" x="20.828" y="11.938" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/10W 5.1 ohm .5% 50ppm" x="20.828" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="20.828" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO" x="20.828" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1118,7 +1118,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.05" y="12.065" size="0.6" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="20.828" y="11.938" size="0.6" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C2" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="20.828" y="10.668" smashed="yes" rot="MR180">
+<element name="C2" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46982035/2" override_package_urn="urn:adsk.eagle:footprint:46982036/1" value="100nf" x="20.828" y="10.668" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="20.828" y="10.668" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="20.828" y="10.668" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="20.828" y="10.668" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1128,7 +1128,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.177" y="10.795" size="0.6" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="20.828" y="10.668" size="0.6" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="R5" library="AC0603FR-7W47KL" package="RESC1608X55N" value="47k" x="20.828" y="9.525" smashed="yes" rot="MR0">
+<element name="R5" library="AC0603FR-7W47KL" package="RESC1608X55N" override_package3d_urn="urn:adsk.eagle:package:46982039/2" override_package_urn="urn:adsk.eagle:footprint:46982040/1" value="47k" x="20.828" y="9.525" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="AEC-Q200 qualified  Moisture sensitivity level: MSL 1  AC series soldering is compliant with J-STD-020D  Halogen free epoxy" x="20.828" y="9.525" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="20.828" y="9.525" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO" x="20.828" y="9.525" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1138,7 +1138,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.907" y="10.668" size="0.6" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="20.828" y="9.525" size="0.6" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="VR1" library="3362P-1-253LF" package="TRIM_3362P-1-253LF" value="3362P-1-253LF" x="14.986" y="14.732" smashed="yes" rot="MR0">
+<element name="VR1" library="3362P-1-253LF" package="TRIM_3362P-1-253LF" override_package3d_urn="urn:adsk.eagle:package:46982014/2" override_package_urn="urn:adsk.eagle:footprint:46982015/1" value="3362P-1-253LF" x="14.986" y="14.732" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="In Stock" x="14.986" y="14.732" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/3362P-1-253LF/Bourns/view-part/?ref=eda" x="14.986" y="14.732" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" value="                                                      1/4 Sq, Thru-Hole, TRIMMER, 25 Kilohms, Cermet, Single Turn | Bourns 3362P-1-253LF                                              " x="14.986" y="14.732" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1150,7 +1150,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/3362P-1-253LF/Bourns/view-part/?ref=snap" x="14.986" y="14.732" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="18.39341875" y="9.41983125" size="0.6" layer="28" rot="MR0"/>
 </element>
-<element name="D1" library="1N5819HW-7-F" package="SOD3716X145N" value="1N5819HW-7-F" x="8.128" y="15.494" smashed="yes" rot="R180">
+<element name="D1" library="1N5819HW-7-F" package="SOD3716X145N" override_package3d_urn="urn:adsk.eagle:package:46981960/2" override_package_urn="urn:adsk.eagle:footprint:46981961/1" value="1N5819HW-7-F" x="8.128" y="15.494" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123" x="8.128" y="15.494" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.45mm" x="8.128" y="15.494" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Diodes Incorporated" x="8.128" y="15.494" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1160,11 +1160,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.906" y="17.018" size="0.6" layer="25" align="center"/>
 <attribute name="VALUE" x="8.128" y="15.494" size="0.6" layer="27" rot="R180" align="center"/>
 </element>
-<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="2.667" y="9.271" smashed="yes" rot="R90">
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" override_package3d_urn="urn:adsk.eagle:package:46982066/2" override_package_urn="urn:adsk.eagle:footprint:22361/1" value="" x="2.667" y="9.271" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="79" x="2.667" y="9.271" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.842" y="1.651" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R6" library="CR0603-FX-2201ELF" package="RESC1608X55N" value="2.2k" x="19.558" y="2.54" smashed="yes" rot="R270">
+<element name="R6" library="CR0603-FX-2201ELF" package="RESC1608X55N" override_package3d_urn="urn:adsk.eagle:package:46982004/2" override_package_urn="urn:adsk.eagle:footprint:46982005/1" value="2.2k" x="19.558" y="2.54" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-2201ELF - RES, THICK FILM, 2K2, 1%, 0.1W, 0603" x="19.558" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="19.558" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" x="19.558" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1174,7 +1174,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.558" y="4.572" size="0.6" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="19.558" y="2.54" size="0.6" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R7" library="CR0603-FX-2201ELF" package="RESC1608X55N" value="2.2k" x="18.288" y="2.54" smashed="yes" rot="R270">
+<element name="R7" library="CR0603-FX-2201ELF" package="RESC1608X55N" override_package3d_urn="urn:adsk.eagle:package:46982002/2" override_package_urn="urn:adsk.eagle:footprint:46982003/1" value="2.2k" x="18.288" y="2.54" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-2201ELF - RES, THICK FILM, 2K2, 1%, 0.1W, 0603" x="18.288" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="18.288" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" x="18.288" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1184,7 +1184,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.288" y="4.572" size="0.6" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="18.288" y="2.54" size="0.6" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R8" library="CR0603-FX-2201ELF" package="RESC1608X55N" value="2.2k" x="12.573" y="10.033" smashed="yes" rot="MR180">
+<element name="R8" library="CR0603-FX-2201ELF" package="RESC1608X55N" override_package3d_urn="urn:adsk.eagle:package:46982055/2" override_package_urn="urn:adsk.eagle:footprint:46982056/1" value="2.2k" x="12.573" y="10.033" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-2201ELF - RES, THICK FILM, 2K2, 1%, 0.1W, 0603" x="12.573" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="12.573" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" x="12.573" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1194,7 +1194,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.573" y="9.017" size="0.6" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="12.573" y="10.033" size="0.6" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="R9" library="CR0603-FX-2201ELF" package="RESC1608X55N" value="2.2k" x="10.541" y="10.287" smashed="yes" rot="MR90">
+<element name="R9" library="CR0603-FX-2201ELF" package="RESC1608X55N" override_package3d_urn="urn:adsk.eagle:package:46982057/2" override_package_urn="urn:adsk.eagle:footprint:46982058/1" value="2.2k" x="10.541" y="10.287" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-2201ELF - RES, THICK FILM, 2K2, 1%, 0.1W, 0603" x="10.541" y="10.287" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="10.541" y="10.287" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" x="10.541" y="10.287" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1204,7 +1204,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.525" y="10.287" size="0.6" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="10.541" y="10.287" size="0.6" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="Q1" library="2N7002" package="SOT95P280X125-3N" value="2N7002" x="10.668" y="6.477" smashed="yes" rot="MR270">
+<element name="Q1" library="2N7002" package="SOT95P280X125-3N" override_package3d_urn="urn:adsk.eagle:package:46981997/2" override_package_urn="urn:adsk.eagle:footprint:46981998/1" value="2N7002" x="10.668" y="6.477" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="This Power MOSFET is the second generation of STMicroelectronics unique single feature size strip-based process. The resulting transistor shows extremely high packing density for low onresistance, rugged avalanche characteristics and less critical alignment steps therefore a remarkable manufacturing reproducibility." x="10.668" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="1.25mm" x="10.668" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="10.668" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1214,7 +1214,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.827" y="6.477" size="0.6" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="10.668" y="6.477" size="0.6" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="Q2" library="2N7002" package="SOT95P280X125-3N" value="2N7002" x="7.239" y="6.477" smashed="yes" rot="MR270">
+<element name="Q2" library="2N7002" package="SOT95P280X125-3N" override_package3d_urn="urn:adsk.eagle:package:46981994/2" override_package_urn="urn:adsk.eagle:footprint:46981995/1" value="2N7002" x="7.239" y="6.477" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="This Power MOSFET is the second generation of STMicroelectronics unique single feature size strip-based process. The resulting transistor shows extremely high packing density for low onresistance, rugged avalanche characteristics and less critical alignment steps therefore a remarkable manufacturing reproducibility." x="7.239" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="1.25mm" x="7.239" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="7.239" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1224,7 +1224,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.207" y="6.477" size="0.6" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="7.239" y="6.477" size="0.6" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="D2" library="1N5819HW-7-F" package="SOD3716X145N" value="1N5819HW-7-F" x="7.239" y="12.573" smashed="yes" rot="MR0">
+<element name="D2" library="1N5819HW-7-F" package="SOD3716X145N" override_package3d_urn="urn:adsk.eagle:package:46981971/2" override_package_urn="urn:adsk.eagle:footprint:46981972/1" value="1N5819HW-7-F" x="7.239" y="12.573" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123" x="7.239" y="12.573" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="1.45mm" x="7.239" y="12.573" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Diodes Incorporated" x="7.239" y="12.573" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1234,7 +1234,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.08" y="13.462" size="0.6" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="7.239" y="12.573" size="0.6" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="D3" library="1N5819HW-7-F" package="SOD3716X145N" value="1N5819HW-7-F" x="7.239" y="10.795" smashed="yes" rot="MR0">
+<element name="D3" library="1N5819HW-7-F" package="SOD3716X145N" override_package3d_urn="urn:adsk.eagle:package:46981976/2" override_package_urn="urn:adsk.eagle:footprint:46981977/1" value="1N5819HW-7-F" x="7.239" y="10.795" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123" x="7.239" y="10.795" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="1.45mm" x="7.239" y="10.795" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Diodes Incorporated" x="7.239" y="10.795" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1294,7 +1294,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="15" x="45.085" y="-12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="37.465" y="6.35" size="0.0254" layer="28" rot="MR90"/>
 </element>
-<element name="C7" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" value="100nf" x="34.925" y="9.398" smashed="yes" rot="MR0">
+<element name="C7" library="CGA3E3X7S2A104M080AB" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:46982061/2" override_package_urn="urn:adsk.eagle:footprint:46982062/1" value="100nf" x="34.925" y="9.398" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="34.925" y="9.398" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="34.925" y="9.398" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="34.925" y="9.398" size="1.778" layer="28" rot="MR0" display="off"/>
